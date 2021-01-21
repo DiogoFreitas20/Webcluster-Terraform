@@ -28,7 +28,7 @@ resource "aws_autoscaling_group" "portoeditora" {
   health_check_type = "ELB"
 
   min_size = 1
-  max_size = 10
+  max_size = 3
 
   tag {
     key = "Name"
